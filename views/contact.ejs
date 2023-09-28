@@ -1,0 +1,41 @@
+<!-- contact.ejs, Maksym Bezverkhnii, 301287637, September 27, 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/form.css">
+</head>
+<body>
+    <%- include('partials/header', { currentPageUrl: locals.currentPageUrl }) %>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <div class="input-container">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+    
+          <label for="contact">Email or Phone</label>
+          <div class="input-container">
+            <input type="text" id="contact" name="contact" placeholder="Email or Phone" required>
+          </div>
+    
+          <label for="service">Service Needed:</label>
+          <div class="input-container">
+            <input type="text" id="service" name="service" placeholder="Service Needed" required>
+          </div>
+        <div id="submit">
+        <a href="/" >
+            Save and Send
+        </a>
+    </div>
+          
+        </form>
+        <div class="separator"></div>
+        <p>Thank you for reaching out. Our team will contact you shortly, and you'll be redirected to our home page.</p>
+      </div>
+</body>
+</html>

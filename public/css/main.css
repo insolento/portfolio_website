@@ -1,0 +1,30 @@
+/* main.css, Maksym Bezverkhnii, 301287637, September 27, 2023 */
+.main {
+    margin-top: 70px;
+}
+
+.horizontal_container_projects {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(1, 1, 1, 0);
+}
+.horizontal_container_about {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(1, 1, 1, 0);
+}
+.horizontal_container_about div h3  {
+    height: 500px;
+    text-align: center;
+    margin-top: 200px;
+}
+.horizontal_container_about div img  {
+    height: 500px;
+}
+.horizontal_container_projects div {
+    width: 500px;
+    height: 500px;
+}
+.horizontal_container_projects div img {
+    height: 500px;
+}

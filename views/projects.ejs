@@ -1,0 +1,51 @@
+<!-- projects.ejs, Maksym Bezverkhnii, 301287637, September 27, 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+    <%- include('partials/header', { currentPageUrl: locals.currentPageUrl }) %>
+    <div class="main">
+        <div class="horizontal_container_projects">
+            <div>
+                <h3>First one is a website that I made for a startup company</h3>
+            </div>
+            <div>
+                <img src="/images/project1.png">
+            </div>
+        </div>
+
+        <div class="horizontal_container_projects">
+            <div>
+                <h3>Second is the weather application</h3>
+            </div>
+            <div>
+                <img src="images/project2.png">
+            </div>
+        </div>
+
+        <div class="horizontal_container_projects">
+            <div>
+                <h3>Third is an application to operate cash devices in the stores</h3>
+            </div>
+            <div>
+                <img src="/images/project3.png">
+            </div>
+        </div>
+
+        <div class="horizontal_container_projects">
+            <div>
+                <h4>Third One Is Application on iPhone to track habits</h4>
+            </div>
+            <div>
+                <img src="/images/project4.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
